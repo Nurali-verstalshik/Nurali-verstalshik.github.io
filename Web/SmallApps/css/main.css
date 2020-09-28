@@ -257,7 +257,19 @@ article section{
 	display: block;
 	padding: 22px 0;
 	text-decoration: none;
-	FONT-SIZE: 90%;
+	FONT-SIZE: 85%;
+}
+
+@media (max-width: 600px) {
+.social li{
+	display: block;
+	margin: 5px auto;
+}
+
+.row {
+	margin:0px 0px!important;
+}
+
 }
 
 .sn1 {
