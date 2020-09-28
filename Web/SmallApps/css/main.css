@@ -116,9 +116,11 @@ article section{
 }
 
 .h2, .h6 {
+
 	margin: 40px auto!important;
 	font-weight: bold;
 	text-transform: uppercase;
+
 }
 
 .tab-pane img{
@@ -266,7 +268,13 @@ article section{
 	margin: 5px auto;
 }
 
- 
+.h2, .h6 {
+	font-size: 1rem;}
+
+.social {
+	display: none;
+}	
+#ScreenShot img{max-width: 30%;}
 }
 
 .sn1 {
@@ -304,5 +312,5 @@ article section{
 	height: 42px;
 }
 
-#ScreenShot img{max-width: 70%;}
+#ScreenShot img{max-width: 50%;}
 																							/*Нурик 17.09.2020 */
