@@ -445,6 +445,34 @@ section div {
 	cursor: pointer;
 }
 
+.modal-title {
+	text-align: center;
+	font-size: 20px;
+}
+
+.modal-body input {
+	font-size: 16px;
+	color: silver;
+	padding: 5px;
+	width: 90%;
+	border:1px solid green;
+	display: block;
+	margin: 1px auto;
+}
+
+.modal-body p{
+	font-size: 16px;
+	color: green;
+	text-align: center;
+	padding: 10px;
+}
+.modal-body b{
+	vertical-align: -webkit-baseline-middle;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+
+}
 
 
 
