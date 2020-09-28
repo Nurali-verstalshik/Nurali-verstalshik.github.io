@@ -358,13 +358,13 @@
       <div class="col-12 itog">
         <div class="form-check disabled">
           <span>Шефбургер</span> 
-          <table class="table ">
+          <table class="table  ">
             <thead>
              <tr>
-              <th>Итого:</th>
-              <td>Количество</td>
+              
+              <td colspan="2">Количество</td>
+       
               <td>Цена</td>
-              <td>Подтвердить</td>
             </tr>
           </thead>
           <tbody>
@@ -372,8 +372,10 @@
               <th class="kolvo">1 шт</th>
               <td><input class="kolvoNum" type="number" size="3" name="num" min="1" max="20" value="1"></td>
               <td><b class="price">$1</b></td>
-              <td>
-                <button class="Zakaz"type="button"   data-toggle="modal" data-target="#exampleModal">Заказать</button></td>
+              </tr>
+              <tr>
+                 <td colspan="3">
+                <button class="Zakaz btn-success" type="button"   data-toggle="modal" data-target="#exampleModal">Заказать</button></td>
               </tr>
             </tbody>
           </table>
