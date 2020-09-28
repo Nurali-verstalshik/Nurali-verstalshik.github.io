@@ -2,7 +2,9 @@
 body{
 	font-family: 'Rubik', sans-serif;
 }
-
+.row {
+	margin:0px 0px!important;
+}
 a {
 	text-decoration: none;
 	color:black;
@@ -643,9 +645,10 @@ padding: 10px;
 }
 
 .prefooter li{
-	text-align: left!important;
+	text-align: center;!important;
 	padding: 8px 15px;
 	font-size: 13px!important;
+ 
 }
 
 .prefooter a{
@@ -657,6 +660,7 @@ padding: 10px;
 	margin: 40px 0;
 	color: white;
 	position: relative;
+	text-align: center;
 }
 
 .prefooter h4::before{
@@ -721,34 +725,37 @@ footer .prefooter{
 	background-position: 2px 0px;
 	padding: 10px;
 	float: left;
-	margin: 20px 4px;
+	margin: 20px auto;
  }
 .tweet1 {
  	background-image: url(../img/footer_icons2.png);
 	background-position: -30px 0px;
 	padding: 10px;
 	float: left;
-	margin: 20px 4px;
+	margin: 20px auto;
  }
  .tweet2 {
  	background-image: url(../img/footer_icons2.png);
 	background-position: -64px 0px;
 	padding: 10px;
 	float: left;
-	margin: 20px 4px;
+	margin: 20px auto;
  }
  .tweet3 {
  	background-image: url(../img/footer_icons2.png);
 	background-position: -97px 0px;
 	padding: 10px;
 	float: left;
-	margin: 20px 4px;
+	margin: 20px auto;
  }
  .end {
  	background-color: #222222;
  	color: silver;
+ 	margin-left: -15px!important;
+    margin-right: -15px!important;
+    margin-bottom: -15px!important;
  }
-
+.end li {float: left;}
  .end b {
  	color: red;
  }
