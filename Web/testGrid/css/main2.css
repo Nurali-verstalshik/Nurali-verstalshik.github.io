@@ -1,0 +1,68 @@
+@import url(reset.css);
+
+body{
+	font-size: 20px;
+	grid-auto-columns: 1fr;
+}
+section { 
+	display: grid;
+	grid-template-areas: 
+	"header header header"
+	"secondNav secondNav ads"
+	"article nav ads"
+	"footer footer ads"
+	"ad ad ad";
+	grid-template-rows: 60px 60px 1fr;
+	grid-template-columns: 1fr 20%  15%;
+	grid-gap:5px;
+	grid-auto-rows: 40px;
+	grid-auto-flow: row;
+	height: 100vh;
+	margin: 10px;
+}
+header, footer, article, nav, div {
+	padding: 20px;
+	text-align: center;
+	background: gold;
+}
+#pageHeader {
+	grid-area: header;
+}
+#pageFooter {
+	grid-area: footer;
+}
+#mainArticle { 
+	grid-area: article;      
+}
+#mainNav { 
+	grid-area: nav; 
+}
+#siteAds { 
+	grid-area: ads; 
+}
+#siteAd {
+	grid-area: ad;
+	margin-bottom: 10px;
+}
+#secondNav {
+	grid-area: secondNav;
+}
+
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 605px) {
+  section { 
+    grid-template-areas: 
+      "header"
+      "secondNav"
+      "article"
+      "ads"
+      "nav"
+      "footer"
+      "ad";
+    grid-template-rows: 1fr 1fr auto;  
+    grid-template-columns: 1fr;
+ }
+ body{
+	font-size: 20px;
+}
+}
