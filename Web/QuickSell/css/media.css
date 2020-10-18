@@ -130,6 +130,9 @@
 
 
 @media all and (max-width: 507px){
+	#gallery .main {
+		grid-template-columns: repeat(2,1fr);
+	}
 	.description-cols {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr)!important;
