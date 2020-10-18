@@ -134,3 +134,9 @@
 		font-size: 30px;
 	}
 }
+
+@media all and (max-width: 400px){
+	body{
+		background-color: red;
+	}
+}
