@@ -1,0 +1,22 @@
+@media all and (max-width: 1000px){
+	#container{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+
+
+		grid-template-areas: 
+		"header"
+		"nav"
+		"slider"
+		"description"
+		"property"
+		"gallery"
+		"about"
+		"about_products"
+		"contacts"
+		"footer"; 
+
+	}
+
+}

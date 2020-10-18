@@ -1,0 +1,183 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald&display=swap');
+@import url(style.css);
+
+#container {
+	display: grid;
+	grid-template-rows: 
+	minmax(50px, auto) 
+	minmax(180px, auto) 
+	minmax(auto,auto) 
+	minmax(auto, auto) 
+	minmax(660px, auto) 
+	minmax(auto, auto) 
+	minmax(auto,auto) 
+	minmax(445px,auto) 
+	minmax(auto,auto) 
+	auto;
+	grid-template-columns: 1fr;
+	grid-template-areas: 
+	"header"
+	"nav"
+	"slider"
+	"description"
+	"property"
+	"gallery"
+	"about"
+	"about_products"
+	"contacts"
+	"footer"; 
+	justify-content: center;
+	grid-auto-flow: column; 
+	 
+}
+
+#mainNav { 
+	display: grid;
+	grid-template-columns: 1.5fr 0fr 1.5fr;
+	grid-area: nav; 
+	background-color: #f5f5f5;
+	box-shadow:5px 10px 40px lightskyblue;
+	z-index: 999;
+}
+
+
+.pageHeader {
+	display: inline-grid;
+	grid-template-columns: 0.8fr 0 1.5fr;
+	text-align: center;
+	grid-area: header;
+	height: auto;
+	place-items: center;
+}
+.socials {
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr /*repeat(auto-fill, 1fr);*/;
+	place-items: center;
+}
+.header_navigation li {
+	grid-template-columns: repeat(5, 1fr);
+}
+#mySlides {
+	grid-area: slider;
+}
+
+#property ol{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-auto-rows: repeat(2, 1fr);
+	grid-auto-flow: column;
+}
+  
+#description {
+	grid-area: description;
+	text-align: center;
+	padding: 25px;
+	margin-bottom: 40px;
+}
+.description-cols {
+	display: grid;
+	grid-template-columns: repeat(5, 0.5fr);
+	grid-template-rows: 1fr;
+	align-items: center;
+	justify-content: center;
+	grid-gap: 10px;
+}
+ 
+#property {
+	grid-gap: 50px;
+	grid-area: property;
+	display: grid;
+	padding: 35px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	background-image: url(../img/home-back-1.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	overflow: hidden; 
+}
+
+#property::after {
+	content: "";
+	width: 100%;
+	left: 0;top: 0;
+	right: 0;height: 100%;
+	opacity: 0.3;
+	position: absolute;
+	background-color: #000;
+}
+#property ol {
+	text-align: left;
+}
+#gallery {
+	grid-area: gallery; 
+}
+
+#gallery .main {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(auto-fit, 1fr);
+} 
+#gallery  .main div:nth-child(1){
+grid-row: 1/3;
+}
+
+
+#about {
+	/*background-image: url(../img/home-10-714x540.jpg);
+	background-position: center;
+	background-size: cover;*/
+	background-color: #dadada;
+	grid-area: about;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+
+}
+#about_products {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	justify-content: center;
+	aalign-items: self-start;
+	grid-area: about_products;
+	background-image: url(../img/home-back-1.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	grid-gap: 20px;
+	padding: 40px 0;
+}
+#contacts {
+	grid-area: contacts;
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-rows: 1fr;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-columns: 1fr;
+	grid-auto-rows: 1fr;
+	justify-content: right;
+	grid-gap: 25px;
+	padding: 2%;
+}
+
+#preFooter {
+	grid-area: preFooter;
+}
+
+#footer {
+	grid-area: footer;
+	display: grid;
+	grid-template-columns: 1fr;
+	background-color: #000;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	text-align: right;
+	font-family: 'Oswald', sans-serif;
+	padding: 25px;
+} 
+
+@import url(media.css);
