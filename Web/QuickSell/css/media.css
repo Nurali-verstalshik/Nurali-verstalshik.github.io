@@ -186,7 +186,7 @@
 	}
 	#gallery .main {
 		grid-template-columns: repeat(2,1fr);
-	}
+	} 
 }
 
 @media all and (max-width: 480px){
