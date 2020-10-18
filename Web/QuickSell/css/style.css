@@ -236,7 +236,7 @@ sub {
 	color: white;
 	text-decoration: none;
 	background-color: orange;
-	width: 20%;
+	width: 100px;
 	border-radius: 25px;
 	border:none;
 	cursor: pointer;
