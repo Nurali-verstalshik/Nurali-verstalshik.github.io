@@ -1,3 +1,5 @@
+ 
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .proximo {
 	font-family: 'Montserrat', sans-serif;
@@ -47,6 +49,7 @@ nav .active {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	display: -ms-grid;
 	display: grid;
 	padding: 10px;
 	margin-bottom: 111px;
@@ -54,9 +57,12 @@ nav .active {
 
 .offer_info {
 	max-width: 951px;
+	display: -ms-grid;
 	display: grid;
-	align-self: center;
-	justify-self: center; 
+	-ms-grid-row-align: center;
+	    align-self: center;
+	-ms-grid-column-align: center;
+	    justify-self: center; 
 	padding: 10px;
 }
 .offer_info h1 {
@@ -78,18 +84,23 @@ nav .active {
 	background-color: #0067B4;
 	padding: 10px 18px;
 	text-align: center;
+	display: -ms-grid;
 	display: grid;
-	justify-self: self-start;
+	-ms-grid-column-align: self-start;
+	    justify-self: self-start;
 	margin-top: 52px;
 	border-radius: 6px;
 }
 .offer_info a:hover {
 	background-color: #008888;
 	text-decoration: none;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
 	transition: 1s;
 } 
 
 #slider_goods {
+	display: -ms-grid;
 	display: grid;
 }
 #slider_goods .choose,
@@ -111,6 +122,7 @@ nav .active {
 	position: absolute;
 	right: 0;
 	bottom: 15px;
+	color: #0066CC;
 }
 #consulting {
 	min-height: 267px;
@@ -142,6 +154,8 @@ footer li, footer p {
 .arrow.active, .arrow:hover {
 	padding: 4px 9px;
 	border: 2px solid #0067B4;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
 	transition: 1s;
 	color: #0067B4;
 	text-decoration: none;
@@ -151,13 +165,17 @@ footer li, footer p {
 	background-image: url(../img/arrow.png);
 	background-position: center center;
 	background-repeat: no-repeat;
-	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	    -ms-transform: rotate(180deg);
+	        transform: rotate(180deg);
 }
 .arrowLeft {
 	background-image: url(../img/arrow.png);
 	background-position: center center;
 	background-repeat: no-repeat;
-	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	    -ms-transform: rotate(0deg);
+	        transform: rotate(0deg);
 }
 
 #slider_goods {
@@ -187,13 +205,21 @@ footer li, footer p {
 
 .slider__wrapper,
 .slider__wrapper2 {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-transition: -webkit-transform 0.6s ease;
+	transition: -webkit-transform 0.6s ease;
+	-o-transition: transform 0.6s ease;
 	transition: transform 0.6s ease;
+	transition: transform 0.6s ease, -webkit-transform 0.6s ease;
 }
 
 .slider__item,
 .slider__item2 {
-	flex: 0 0 20.1%;
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 20.1%;
+	        flex: 0 0 20.1%;
 	max-width: 50%;
 }
 
@@ -201,6 +227,8 @@ footer li, footer p {
 
 .slider__control_show,
 .slider__control_show2 {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
@@ -217,6 +245,8 @@ footer li, footer p {
 .slider__item2 div:hover{
 	border: none;
 	margin: 0 2px;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
 	transition: 0.5s;
 }
 .slider__item:hover,
@@ -247,16 +277,22 @@ footer li, footer p {
 }
 
 .slider_info a { 
+	-webkit-transition: 1s; 
+	-o-transition: 1s; 
 	transition: 1s; 
 	margin: 10px 0 24px 0px;
 	text-decoration: none;
 	opacity: 0.7;
 	padding: 10px 25px ;
-	filter: grayscale(1); 
+	-webkit-filter: grayscale(1);
+	        filter: grayscale(1); 
 	display: block;
 } 
 .slider_info a:hover {
-	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+	        filter: grayscale(0);
+	-webkit-transition: 1s;
+	-o-transition: 1s;
 	transition: 1s;
 	opacity: 1;
 } 
@@ -390,13 +426,19 @@ article a::after {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: flex-start;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
 }
 
 .ant-carousel-element {
 	display: block;
-	flex: 0 0 auto;
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 auto;
+	        flex: 0 0 auto;
 }
 
 
@@ -440,11 +482,12 @@ span.ant-dot {
 #slider_uslug .blocks a {
 	max-width: 550px;
 	height: 258px;
-/*	overflow: hidden;*/
+	/*	overflow: hidden;*/
 	border-radius: 9px;
 	margin-right: 20px;
 	margin-bottom: 20px;
 	border: 1px solid #E6E9EE;
+	display: -ms-inline-grid;
 	display: inline-grid;
 	font-weight: bold;
 	font-size: 20px;
@@ -467,17 +510,17 @@ span.ant-dot {
 
 #consulting b{	
 	position: absolute;
-    top: -12px;
-    left: 20px;
-    height: 21px;
-    font-size: 13px;
-    font-weight: 400;
-    border-radius: 7px;
-    margin-left: 20px;
-    color: #6E7988;
+	top: -12px;
+	left: 20px;
+	height: 21px;
+	font-size: 13px;
+	font-weight: 400;
+	border-radius: 7px;
+	margin-left: 20px;
+	color: #6E7988;
 }
 #consulting input {
-	min-width: 266px;
+	max-width: 266px;
 	border: 1px solid #ADBDD2;
 	border-radius: 5px;
 	margin: 0!important;
@@ -489,14 +532,17 @@ span.ant-dot {
 	height: 45px;
 }
 #consulting input::-webkit-input-placeholder {
-  color: #ADBDD2; 
- }
+	color: #ADBDD2; 
+}
 form {
+	display: -ms-grid;
 	display: grid;
-    grid-template-columns: repeat(4, 1fr);
+	-ms-grid-columns: (1fr)[4];
+	grid-template-columns: repeat(4, 1fr);
 }
 .form-ctrl {
 	position: relative;
+	display: -ms-inline-grid;
 	display: inline-grid;
 	margin-right: 20px;
 }
@@ -522,6 +568,45 @@ form {
 	border:1px solid #0067B4;
 	font-size: 16px;
 	height: 45px;
+}
+
+footer hr {
+	background-color: white;
+	opacity: 0.1;
+}
+
+footer img {
+	margin:47px 0 28px 0; 
+}
+footer p{
+	font-size: 14px;
+	color: white;
+	opacity: 0.5;
+}
+footer .navi {
+	margin-top: 60px;
+}
+footer .navi a {
+	color: white;
+}
+footer .navi li {
+	margin-bottom: 20px;
+	font-size: 14px;
+	list-style: none;	
+	opacity: 0.5;
+}
+.show_map, .getTel{
+	color: #578BBF!important;
+	text-decoration: underline;
+	opacity: 1!important;
+}
+.footerInfo {
+	font-size: 12px;
+	opacity: 0.5;
+}
+.footerInfo a {
+	color: white!important;
+	border-bottom: 1px solid white;
 }
 
 
