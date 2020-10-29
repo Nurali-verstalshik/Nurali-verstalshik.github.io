@@ -60,9 +60,9 @@ nav .active {
 	display: -ms-grid;
 	display: grid;
 	-ms-grid-row-align: center;
-	    align-self: center;
+	align-self: center;
 	-ms-grid-column-align: center;
-	    justify-self: center; 
+	justify-self: center; 
 	padding: 10px;
 }
 .offer_info h1 {
@@ -87,7 +87,7 @@ nav .active {
 	display: -ms-grid;
 	display: grid;
 	-ms-grid-column-align: self-start;
-	    justify-self: self-start;
+	justify-self: self-start;
 	margin-top: 52px;
 	border-radius: 6px;
 }
@@ -166,16 +166,16 @@ footer li, footer p {
 	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-transform: rotate(180deg);
-	    -ms-transform: rotate(180deg);
-	        transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
 }
 .arrowLeft {
 	background-image: url(../img/arrow.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-transform: rotate(0deg);
-	    -ms-transform: rotate(0deg);
-	        transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
 }
 
 #slider_goods {
@@ -218,8 +218,8 @@ footer li, footer p {
 .slider__item,
 .slider__item2 {
 	-webkit-box-flex: 0;
-	    -ms-flex: 0 0 20.1%;
-	        flex: 0 0 20.1%;
+	-ms-flex: 0 0 20.1%;
+	flex: 0 0 20.1%;
 	max-width: 50%;
 }
 
@@ -285,12 +285,12 @@ footer li, footer p {
 	opacity: 0.7;
 	padding: 10px 25px ;
 	-webkit-filter: grayscale(1);
-	        filter: grayscale(1); 
+	filter: grayscale(1); 
 	display: block;
 } 
 .slider_info a:hover {
 	-webkit-filter: grayscale(0);
-	        filter: grayscale(0);
+	filter: grayscale(0);
 	-webkit-transition: 1s;
 	-o-transition: 1s;
 	transition: 1s;
@@ -430,15 +430,15 @@ article a::after {
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-pack: start;
-	    -ms-flex-pack: start;
-	        justify-content: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
 }
 
 .ant-carousel-element {
 	display: block;
 	-webkit-box-flex: 0;
-	    -ms-flex: 0 0 auto;
-	        flex: 0 0 auto;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto;
 }
 
 
@@ -479,7 +479,7 @@ span.ant-dot {
 .mb-150 {
 	margin-bottom: 150px;
 }
-#slider_uslug .blocks a {
+#slider_uslug .blocks li {
 	max-width: 550px;
 	height: 258px;
 	/*	overflow: hidden;*/
@@ -493,11 +493,40 @@ span.ant-dot {
 	font-size: 20px;
 	padding: 60px 50px;
 	text-align: left; 
+	position: relative;
+		filter: grayscale(1);
 }
-#slider_uslug .blocks a:hover {
+#slider_uslug .blocks li:hover {
 	border: 1px solid #ADBDD2;
+	filter: grayscale(0);
 }
-
+#slider_uslug .blocks li p::after {
+	content: "Подробнее ";
+	
+	background-repeat: no-repeat;
+	width: 17px;
+	height: 12px; 
+	position: absolute;
+	bottom: 20px;
+	left: 50px;
+	font-size: 14px;
+	color: #0067B4;
+}
+#slider_uslug .blocks li a::after {
+	content: "  ";
+	background-image: url(../img/slider_kvartir/arrow_svg.png);
+	background-repeat: no-repeat;
+	width: 17px;
+	height: 12px; 
+	position: absolute;
+	bottom: 16px;
+	left: 140px;
+	font-size: 14px;
+	color: #0067B4;
+}
+#second {
+	margin-bottom: 50px;
+}
 
 
 #consulting .choose {
