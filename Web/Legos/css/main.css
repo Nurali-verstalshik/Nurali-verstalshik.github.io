@@ -428,6 +428,9 @@ span.ant-dot {
 #slider_photo {
 	margin-bottom: 150px;
 }
+#slider_uslug a{
+	color: #143561;
+}
 #slider_uslug .choose {
 	margin-bottom: 50px;
 }
@@ -441,12 +444,85 @@ span.ant-dot {
 	border-radius: 9px;
 	margin-right: 20px;
 	margin-bottom: 20px;
-	border: 1px solid #ADBDD2;
+	border: 1px solid #E6E9EE;
 	display: inline-grid;
-	grid-template-columns: repeat(3,1fr);
+	font-weight: bold;
+	font-size: 20px;
+	padding: 60px 50px;
+	text-align: left; 
+}
+#slider_uslug .blocks a:hover {
+	border: 1px solid #ADBDD2;
 }
 
 
+
+#consulting .choose {
+	border:none;
+}
+#consulting h2 {
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+#consulting b{	
+	position: absolute;
+    top: -12px;
+    left: 20px;
+    height: 21px;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 7px;
+    margin-left: 20px;
+    color: #6E7988;
+}
+#consulting input {
+	min-width: 266px;
+	border: 1px solid #ADBDD2;
+	border-radius: 5px;
+	margin: 0!important;
+	border-top: 0;
+	font-size: 12px;
+	padding: 5px; 
+	padding-left: 20px;
+	margin-right: 20px;
+	height: 45px;
+}
+#consulting input::-webkit-input-placeholder {
+  color: #ADBDD2; 
+ }
+form {
+	display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.form-ctrl {
+	position: relative;
+	display: inline-grid;
+	margin-right: 20px;
+}
+.form-ctrl span {
+	float: right;
+	font-size: 12px;
+	color: #797979;
+	width: 268px;
+	cursor: pointer;
+}
+.form-ctrl s {
+	font-size: 12px;
+	color: #578BBF;
+	text-decoration: underline;
+}
+
+.form-ctrl button {
+	margin-left: 20px;	
+	width: 177px;
+	color: white;
+	background-color: #0067B4;
+	border-radius: 5px;
+	border:1px solid #0067B4;
+	font-size: 16px;
+	height: 45px;
+}
 
 
 div, section, article, header {
