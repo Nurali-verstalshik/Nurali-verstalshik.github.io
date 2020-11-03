@@ -9,9 +9,9 @@
   <link rel="stylesheet" href="css/main.css">
   <title>Легос! Строительная компания</title>
 </head>
-<body>
-
-  <header>
+<body >
+<!-- Панель навигации -->
+  <header style="background-color: #e8f1f8;" id="top" class="scrollto">
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,13 +20,13 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#0">Объекты <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="objects.html">Объекты <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#1">Услуги</a>
+            <a class="nav-link" href="uslugi.html">Услуги</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#2">О застройщике</a>
+           <a class="nav-link" href="o_zastroishike.html">О застройщике</a>
           </li>
         </ul>
         <span class="navbar-text">
@@ -35,15 +35,19 @@
      </div>
    </nav>
  </header>
-
+<!-- Конец Панель навигации -->
 
  <section id="offer">
-  <div class="offer_info proximo">
-    <h1>Крупный, надёжный застройщик
-      Воронежа, ведущий свою деятельность
-    на рынке недвижимости более 22 лет</h1>
-    <p>Мы построили более 50 объектов в Воронеже и Воронежской области</p>
-    <a href="#0">Выбрать квартиру</a>
+  <div class="container">
+    <div class="row">
+      <div class="offer_info proximo">
+        <h1>Крупный, надёжный застройщик
+          Воронежа, ведущий свою деятельность
+        на рынке недвижимости более 22 лет</h1>
+        <p>Мы построили более 50 объектов в Воронеже и Воронежской области</p>
+        <a href="#0">Выбрать квартиру</a>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -142,10 +146,10 @@
 
 </section>
 
-<article>
+<article class="main_article">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-7">
         <h3>Легос — строительство многоквартирных
           и индивидуальных жилых домов
           в Воронеже и Воронежской области
@@ -188,29 +192,29 @@
 
             <div class="ant-carousel-hider">
               <ul class="ant-carousel-list">
-                <li class="ant-carousel-element"><img src="img/slider_banks/1.png" alt="0">
+                   <li class="ant-carousel-element"><img src="img/slider_banks/1.png" alt="0">
                 </li>
-                <li class="ant-carousel-element"><img src="img/slider_banks/2.png" alt="1">
+                   <li class="ant-carousel-element"><img src="img/slider_banks/2.png" alt="1">
                 </li>
-                <li class="ant-carousel-element"><img src="img/slider_banks/3.png" alt="2">
+                   <li class="ant-carousel-element"><img src="img/slider_banks/3.png" alt="2">
                 </li>
-                <li class="ant-carousel-element"><img src="img/slider_banks/4.png" alt="3">
+                   <li class="ant-carousel-element"><img src="img/slider_banks/4.png" alt="3">
                 </li>
-                <li class="ant-carousel-element"><img src="img/slider_banks/5.png" alt="4">
+                   <li class="ant-carousel-element"><img src="img/slider_banks/5.png" alt="4">
                 </li>
-                <li class="ant-carousel-element"><img src="img/slider_banks/6.png" alt="5">
+                   <li class="ant-carousel-element"><img src="img/slider_banks/6.png" alt="5">
                 </li>
-                <li class="ant-carousel-element"><img src="img/slider_banks/1.png" alt="0">
+                   <li class="ant-carousel-element"><img src="img/slider_banks/1.png" alt="0">
                 </li>
-                <li class="ant-carousel-element"><img src="img/slider_banks/2.png" alt="1">
+                   <li class="ant-carousel-element"><img src="img/slider_banks/2.png" alt="1">
                 </li>
-                <li class="ant-carousel-element"><img src="img/slider_banks/3.png" alt="2">
+                   <li class="ant-carousel-element"><img src="img/slider_banks/3.png" alt="2">
                 </li>
-                <li class="ant-carousel-element"><img src="img/slider_banks/4.png" alt="3">
+                   <li class="ant-carousel-element"><img src="img/slider_banks/4.png" alt="3">
                 </li>
-                <li class="ant-carousel-element"><img src="img/slider_banks/5.png" alt="4">
+                   <li class="ant-carousel-element"><img src="img/slider_banks/5.png" alt="4">
                 </li>
-                <li class="ant-carousel-element"><img src="img/slider_banks/6.png" alt="5">
+                   <li class="ant-carousel-element"><img src="img/slider_banks/6.png" alt="5">
                 </li>
               </ul>
             </div>
@@ -229,7 +233,7 @@
     <div class="row">
       <div class="col-lg-12 choose">
         <h2>Услуги</h2> 
-        <a href="#0">Смотреть все</a>
+        <a href="uslugi.html">Смотреть все</a>
       </div>
     </div>
   </div>
@@ -250,36 +254,42 @@
 
             <div class="ant-carousel-hider">
               <ul class="ant-carousel-list">
-                <li class="ant-carousel-element">
-                  <a href=""><p>Ремонт и реконструкция объектов недвижимости</p></a>
+                    <li class="ant-carousel-element">
+                  <div id="hov"></div>
+                  <a href="uslugi-1.html"><p>Ремонт и реконструкция объектов недвижимости</p></a>
                 </li>
-                <li class="ant-carousel-element">
+                    <li class="ant-carousel-element">
+                  <div id="hov"></div>
                  <a href=""> <p>Управляющая компания</p></a>
-                </li>
-                <li class="ant-carousel-element">
-                  <a href=""><p>Сопровождение сделок с недвижимостью</p></a>
-                </li>
-                <li class="ant-carousel-element">
-                  <a href=""><p>Ремонт и реконструкция объектов недвижимости</p></a>
-                </li>
-                <li class="ant-carousel-element">
-                  <a href=""><p>Управляющая компания</p></a>
-                </li>
-                <li class="ant-carousel-element">
-                  <a href=""><p>Сопровождение сделок с недвижимостью</p></a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="ant-carousel-dots d-none"></div>
+               </li>
+                   <li class="ant-carousel-element">
+                <div id="hov"></div>
+                <a href=""><p>Сопровождение сделок с недвижимостью</p></a>
+              </li>
+                  <li class="ant-carousel-element">
+                <div id="hov"></div>
+                <a href="uslugi-1.html"><p>Ремонт и реконструкция объектов недвижимости</p></a>
+              </li>
+                  <li class="ant-carousel-element">
+                <div id="hov"></div>
+                <a href=""><p>Управляющая компания</p></a>
+              </li>
+                  <li class="ant-carousel-element">
+                <div id="hov"></div>
+                <a href=""><p>Сопровождение сделок с недвижимостью</p></a>
+              </li>
+            </ul>
           </div>
 
-
+          <div class="ant-carousel-dots d-none"></div>
         </div>
+
+
       </div>
     </div>
-
   </div>
+
+</div>
 </div>
 </div>
 
@@ -297,7 +307,7 @@
         </div>
         <div class="form-ctrl"> 
           <b>Телефон</b>
-          <input type="text" name="telephone" placeholder="+7___ ___ __ __" max="12" min="0" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+          <input type="text" name="telephone" placeholder="+7___ ___ __ __" max="12" min="0" onkeypress='return  .charCode >= 48 &&  .charCode <= 57'>
         </div>
         <div class="form-ctrl"> 
           <button>Отправить</button>
@@ -322,9 +332,9 @@
       </div>
       <div class="col-3">
         <ul class="navi">
-          <li><a href="">Объекты</a></li>
-          <li><a href="">Услуги</a></li>
-          <li><a href="">О застройщике </a></li>    
+          <li><a href="objects.html">Объекты</a></li>
+          <li><a href="uslugi.html">Услуги</a></li>
+          <li><a href="o_zastroishike.html">О застройщике </a></li>       
         </ul>
       </div>
       <div class="col-3">
@@ -352,10 +362,18 @@
   </div>
 </footer>
 
+<div class="toTop scrollto" id="top">
+  <a href="#top"></a>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
 <script src="js/slider1.js"></script>
 <script src="js/slider2.js"></script>
 <script src="js/slider3.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
