@@ -53,7 +53,6 @@ nav {
 header {
 	position: relative;
 	z-index: 9;
-	background:none;
 	
 }
 header nav a {
@@ -1894,7 +1893,22 @@ article a::after {
 			text-align: center;
 		}
 		#slider_uslug .blocks li {
+			/*max-width: 261px!important;*/
+			margin-right: 0;
+			margin-bottom: 5px;
+		}
+		#slider_uslug .blocks1 li {
 			max-width: 261px!important;
+			margin-right: 0;
+			margin-bottom: 5px;
+		}
+		.usluga_info .img-left li::before {
+			background-image: none;
+			padding: 0;
+		}
+
+		.uslugi_news_wrapper h1 {
+			font-size: 2.505rem;
 		}
 		#slider_uslug .ant-carousel-element p {
 			width: 100%;
@@ -2164,8 +2178,6 @@ article a::after {
 		#mision {
 			margin-bottom: 20px;
 		}
-		header {
-			background-color: #d2e4f2;
-		}
+
 
 	}
