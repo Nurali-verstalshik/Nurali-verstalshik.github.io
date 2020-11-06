@@ -53,6 +53,7 @@ nav {
 header {
 	position: relative;
 	z-index: 9;
+	background:none;
 	
 }
 header nav a {
@@ -1704,6 +1705,7 @@ article a::after {
 	/*Блок расчета*/
 	.block_raschet {
 		background-image: url(../img/raschet.webp);
+		background-size: cover;
 	}
 
 	.block_raschet h3 {
@@ -2127,7 +2129,7 @@ article a::after {
 		.map {
 			padding: 10px;
 		}
-		
+
 		.docs {
 			-webkit-column-count: 1;
 			-moz-column-count: 1;
@@ -2161,6 +2163,9 @@ article a::after {
 		}
 		#mision {
 			margin-bottom: 20px;
+		}
+		header {
+			background-color: #d2e4f2;
 		}
 
 	}
