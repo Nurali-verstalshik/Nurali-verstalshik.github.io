@@ -76,7 +76,7 @@
               <p class="experiense_years">65 тыс. м²</p>
             </div>
           </div>
-          <div class=" col-md-5 col-lg-5 ">
+          <div class="d-none d-sm-none d-md-block col-lg-5 ">
             <img src="img/flag.jpg" >
           </div>
         </div>
@@ -176,7 +176,7 @@
 
   <div class="container">
     <div class="row">
-     <div class=" col-md-5 col-lg-5 content content_img">
+     <div class="    col-lg-5 content content_img">
       <img src="img/udostoverenie.jpg" >
       <ul>
        <li>“Удостоверение и награда Заслуженный строитель РФ”</li>
@@ -337,7 +337,7 @@
         </div>
         <div class="form-ctrl"> 
           <b>Телефон</b>
-          <input type="text" name="telephone" placeholder="+7___ ___ __ __" max="12" min="0" onkeypress='return  .charCode >= 48 &&  .charCode <= 57'>
+                   <input type="text" name="telephone" placeholder="+7___ ___ __ __" onkeyup="this.value = this.value.replace (/\D/, '')">
         </div>
         <div class="form-ctrl"> 
           <button>Отправить</button>
@@ -355,26 +355,26 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-3">
+      <div class=" col-lg-3 col-md-3 col-sm-12">
         <img src="img/logo_footer.png" alt="">
         <p>Строительство многоквартирных
         и индивидуальных жилых домов.</p>
       </div>
-      <div class="col-3">
+     <div class="  col-lg-3">
         <ul class="navi">
           <li><a href="objects.html">Объекты</a></li>
           <li><a href="uslugi.html">Услуги</a></li>
           <li><a href="o_zastroishike.html">О застройщике </a></li>       
         </ul>
       </div>
-      <div class="col-3">
+          <div class=" col-lg-3 col-md-3 col-sm-12">
         <ul class="navi">
           <li><p>с 9:00 до 18:00</p></li>
           <li><p>Воронежская обл., Новоусманский р-н, с. Новая Усмань, ул. Раздольная, д.2</p></li>
           <li><a href="#" class="show_map">Показать на карте</a></li>
         </ul>
       </div>
-      <div class="col-3">
+        <div class=" col-lg-3 col-md-3 col-sm-12">
         <ul class="navi">
           <li><p>+7 (473) 272-78-31</p></li>
           <li><p>+7 (473) 205-12-19</p></li>
@@ -401,12 +401,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-
+ 
 <script src="js/slider2.js"></script>
-<script src="js/slider3.js"></script>
-<script src="js/slider4.js"></script>
-<script src="js/slider5.js"></script>
+ 
 <script src="js/main.js"></script>
-
+<script>new Ant("first"); new Ant("second"); new Ant("fourth");</script>
 </body>
 </html>

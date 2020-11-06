@@ -24,11 +24,11 @@ function Ant(crslId) {
 Ant.defaults = {
 
   // Default options for the carousel
-  elemVisible: 5, // Кол-во отображаемых элементов в карусели
+  elemVisible: 3, // Кол-во отображаемых элементов в карусели
   loop: true,     // Бесконечное зацикливание карусели 
   auto: true,     // Автоматическая прокрутка
   interval: 3000, // Интервал между прокруткой элементов (мс)
-  speed: 750,     // Скорость анимации (мс)
+  speed: 700,     // Скорость анимации (мс)
   touch: true,    // Прокрутка  прикосновением
   arrows: true,   // Прокрутка стрелками
   dots: true      // Индикаторные точки
@@ -228,4 +228,5 @@ Ant.initialize = function(that) {
     }
   }
 };
- 
+
+new Ant("fiveth");
