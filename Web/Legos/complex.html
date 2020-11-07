@@ -1,16 +1,26 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <!-- Required meta tags -->
+
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="preload" href="css/bootstrap-reboot.css" as="style">
-
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
   <title>Жилой комплекс «ЮЖНЫЙ»</title>
 
- 
+  <!-- Основные стили -->
+  <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+
+  <!-- Тема по умолчанию -->
+  <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+
+  <!-- Подключаем jQuery  -->
+  <script src="js/jquery-1.9.1.min.js"></script>
+
+  <!-- Подключаем плагин -->
+  <script src="owl-carousel/owl.carousel.js"></script>
 
 </head>
 <body > 
@@ -20,7 +30,7 @@
 
 
   <!-- Панель навигации -->
-  <header id="top" class="scrollto" >
+  <header id="top" class="scrollto" style="background-color: #d2e4f2;">
     <nav class="navbar navbar-expand-lg navbar-light"> 
       <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -150,343 +160,350 @@
 </div>
 </article>
 
+
 <section id="tabs" class="mb-150">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="list-group" id="list-tab" role="tablist">
-          <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Инфраструктура</a>
-          <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Проектная документация</a>
-          <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Проектная декларация</a>
-          <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Ход строительства</a>
-        </div>
-        <hr>
+   <div class="row">
+
+
+
+    <div class="col-12">
+      <div class="list-group" id="list-tab" role="tablist">
+        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Инфраструктура</a>
+        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Проектная документация</a>
+        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Проектная декларация</a>
+        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Ход строительства</a>
       </div>
-      <div class="col-12">
-        <div class="tab-content" id="nav-tabContent">
-          <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
-           <!-- контент1вкладки -->
-           <div class="row">
-            <div class="col-lg-6">
-              <p>Рыба текст с описанием комплекса. Не следует, однако забывать, что реализация намеченных плановых заданий позволяет выполнять важные задания
-              по разработке новых предложений.</p>
+      <hr>
+    </div>
 
-              <p> Разнообразный и богатый опыт постоянный количественный рост и сфера нашей активности требуют определения и уточнения соответствующий условий активизации.</p>
 
-              <p>Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности требуют определения и уточнения дальнейших направлений развития. Таким образом рамки и место обучения кадров влечет.</p>
+    <div class="col-12">
+      <div class="tab-content" id="nav-tabContent">
+
+
+        <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <p>Рыба текст с описанием комплекса. Не следует, однако забывать, что реализация намеченных плановых заданий позволяет выполнять важные задания
+                по разработке новых предложений.</p>
+
+                <p> Разнообразный и богатый опыт постоянный количественный рост и сфера нашей активности требуют определения и уточнения соответствующий условий активизации.</p>
+
+                <p>Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности требуют определения и уточнения дальнейших направлений развития. Таким образом рамки и место обучения кадров влечет.</p>
+              </div>
+              <div class="col-lg-6">
+                <ul class="prem">
+                  <li><img src="img/complex_icon1.png" alt="">
+                    <p>Гарантия качества</p>
+                  </li>
+                  <li><img src="img/complex_icon2.png" alt="">
+                    <p>Дизайнер интерьера</p>
+                  </li>
+                  <li><img src="img/complex_icon3.png" alt="">
+                    <p>Подземный паркинг</p>
+                  </li>
+                  <li><img src="img/complex_icon4.png" alt="">
+                    <p>Подземный паркинг</p>
+                  </li>
+                  <li><img src="img/complex_icon5.png" alt="">
+                    <p>Гарантия качества</p>
+                  </li>
+                  <li><img src="img/complex_icon5.png" alt="">
+                    <p>Гарантия качества</p>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="col-lg-6">
-              <ul class="prem">
-                <li><img src="img/complex_icon1.png" alt="">
-                  <p>Гарантия качества</p>
-                </li>
-                <li><img src="img/complex_icon2.png" alt="">
-                  <p>Дизайнер интерьера</p>
-                </li>
-                <li><img src="img/complex_icon3.png" alt="">
-                  <p>Подземный паркинг</p>
-                </li>
-                <li><img src="img/complex_icon4.png" alt="">
-                  <p>Подземный паркинг</p>
-                </li>
-                <li><img src="img/complex_icon5.png" alt="">
-                  <p>Гарантия качества</p>
-                </li>
-                <li><img src="img/complex_icon5.png" alt="">
-                  <p>Гарантия качества</p>
-                </li>
+          </div>
+        </div>
+        
+        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+
+          <div class="container">
+           <div class="row">
+            <div class="col-12">
+              <ul class="docs">
+                <li><a href="">1. Разрешение на строительство</a></li>
+                <li><a href="">1.2 Разрешение на строительство изменённое</a></li>
+                <li><a href="">2. Заключение экспертизы проектной документации</a></li>
+                <li><a href="">3. Документы, подтверждающие права застройщика на земельный участок.</a></li>
+                <li><a href="">Свидетельство о государственной регистрации права</a></li>
+                <li><a href="">4. Образец договора ДДУ</a></li>
+                <li><a href="">4.1 Образец договора ДДУ с изменениями от 30.10.2018</a></li>
+                <li><a href="">5. Свидетельство АСРО от 22.04.2016</a></li>
+                <li><a href="">6. Градостроительный план 2020</a></li>
+                <li><a href="">7. Разрешение на ввод объекта в эксплуатацию</a></li>
               </ul>
             </div>
           </div>
-
         </div>
-        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
-         <!-- контент2вкладки -->
+      </div>
+
+      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+
+        <div class="container">
          <div class="row">
           <div class="col-12">
             <ul class="docs">
-              <li><a href="">1. Разрешение на строительство</a></li>
-              <li><a href="">1.2 Разрешение на строительство изменённое</a></li>
-              <li><a href="">2. Заключение экспертизы проектной документации</a></li>
-              <li><a href="">3. Документы, подтверждающие права застройщика на земельный участок.</a></li>
-              <li><a href="">Свидетельство о государственной регистрации права</a></li>
-              <li><a href="">4. Образец договора ДДУ</a></li>
-              <li><a href="">4.1 Образец договора ДДУ с изменениями от 30.10.2018</a></li>
-              <li><a href="">5. Свидетельство АСРО от 22.04.2016</a></li>
-              <li><a href="">6. Градостроительный план 2020</a></li>
-              <li><a href="">7. Разрешение на ввод объекта в эксплуатацию</a></li>
+              <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
+              <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
+              <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
+              <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
+              <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
+              <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
+              <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
+              <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
+              <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
+              <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
+              <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
+              <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
+              <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
+              <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>            
             </ul>
           </div>
-        </div>
-      </div>
-      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-       <!-- контент3вкладки -->
-       <div class="row">
-        <div class="col-12">
-          <ul class="docs">
-            <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
-            <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
-            <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
-            <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
-            <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
-            <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
-            <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
-            <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
-            <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
-            <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
-            <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
-            <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
-            <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>
-            <li><a href="">Изменения в проектную дикларацию от 01.02.2017</a></li>            
-          </ul>
         </div>
       </div>
     </div>
 
     <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
-     <!-- контент4вкладки -->
-     <div class="row">
-      <div class="col-12">
+     <div class="container">
+      <!-- Слайдер Банки -->
+      
+        <div class="container-fluid">
+ 
+         <div class="row">
+          <div class="col">
 
 
+<iframe src="js/demo/demos/full.html" style="width: 100%; height:350px;"></iframe>
+             
 
+                
 
-
-
-
-        <!-- слайдер -->
-        <div id="carousel" class="carousel">
-
-          <div class="gallery">
-            <ul class="images">
-
-              <li><img src="img/complex_img1.png">
-                <p>Март 2020</p></li>
-                <li><img src="img/complex_img2.png">
-                  <p>Март 2020</p></li>
-                  <li><img src="img/complex_img3.png">
-                    <p>Март 2020</p></li>
-                    <li><img src="img/complex_img4.png">
-                      <p>Март 2020</p></li>
-                      <li><img src="img/complex_img1.png">
-                        <p>Март 2020</p></li>
-                        <li><img src="img/complex_img2.png">
-                          <p>Март 2020</p></li>
-                          <li><img src="img/complex_img3.png">
-                            <p>Март 2020</p></li>
-                            <li><img src="img/complex_img4.png">
-                              <p>Март 2020</p></li>
-
-                            </ul>
-                          </div>
-                          <div class="arrowPlace">
-                            <a href="#0" class="arrow next arrow arrowRight ant-carousel-arrow-right" role="button"></a>
-                            <a href="#0" class=" arrow prev arrow arrowLeft ant-carousel-arrow-left " role="button"> </a>
-                            <script src="js/complex_slider.js"></script>
-                          </div>
-                        </div>
-                        <!-- конец слайдера -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-        <section class="mb-150 map">
-          <!-- <img src="img/map.webp" alt=""> -->
-     <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/stroitelnaya_kompaniya_legos/15659278681/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Строительная компания Легос</a><a href="https://yandex.ru/maps/10672/voronezh-oblast/category/building_company/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Строительная компания в Воронежской области</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUAUYT0PA" width="100%" height="390" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
-        </section>
-
-        <!-- Слайдер Банки -->
-        <section id="slider_plan" class="mb-150">
-
-          <div class="ant-carousel" id="fiveth">
-           <div class="slider">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-12 choose">
-                 <h2>Вид планировки</h2> 
-                 <a href="#0" class="arrow arrowRight ant-carousel-arrow-right" role="button"></a>
-                 <a href="#0" class="arrow arrowLeft ant-carousel-arrow-left " role="button"> </a>
-               </div>
-             </div>
-             <div class="row otstupit">
-              <div class="col-lg-12">
-
-                <div class="ant-carousel-hider">
-                  <ul class="ant-carousel-list">
-
-                   <li class="ant-carousel-element"><img src="img/plan/plan1.webp" alt="0">
-                    <p>Секция 1</p>
-                  </li>
-                  <li class="ant-carousel-element"><img src="img/plan/plan2.webp" alt="1">
-                    <p>Секция 2</p>
-                  </li>
-                  <li class="ant-carousel-element"><img src="img/plan/plan3.webp" alt="2">
-                    <p>Секция 3</p>
-                  </li>
-                  <li class="ant-carousel-element"><img src="img/plan/plan1.webp" alt="0">
-                    <p>Секция 1</p>
-                  </li>
-                  <li class="ant-carousel-element"><img src="img/plan/plan2.webp" alt="1">
-                    <p>Секция 2</p>
-                  </li>
-                  <li class="ant-carousel-element"><img src="img/plan/plan3.webp" alt="2">
-                    <p>Секция 3</p>
-                  </li>
-                  <li class="ant-carousel-element"><img src="img/plan/plan1.webp" alt="0">
-                    <p>Секция 1</p>
-                  </li>
-                  <li class="ant-carousel-element"><img src="img/plan/plan2.webp" alt="1">
-                    <p>Секция 2</p>
-                  </li>
-                  <li class="ant-carousel-element"><img src="img/plan/plan3.webp" alt="2">
-                    <p>Секция 3</p>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="ant-carousel-dots "></div>
-            </div>
-
-          </div>
         </div>
+
       </div>
     </div>
   </section>
   <!-- End-Слайдер Банки -->
+</div>
+</div>
 
 
-  <section class="mb-150 block_raschet">
+</div>
+</div>
+
+
+
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="mb-150 map">
+  <!-- <img src="img/map.webp" alt=""> -->
+  <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/stroitelnaya_kompaniya_legos/15659278681/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Строительная компания Легос</a><a href="https://yandex.ru/maps/10672/voronezh-oblast/category/building_company/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Строительная компания в Воронежской области</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUAUYT0PA" width="100%" height="390" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+</section>
+
+<!-- Слайдер Банки -->
+<section id="slider_plan" class="mb-150">
+
+  <div class="ant-carousel" id="fiveth">
+   <div class="slider">
     <div class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col-lg-3">
-          <h3>Рассчитать ипотеку</h3>
-          <p>Рыба текст с описанием комплекса. Не следует, однако забывать, что реализация намеченных плановых заданий</p>
-        </div>
-        <div class="col-lg-3">
-          <div class="form-ctrl"> 
-            <button data-toggle="modal" data-target=".bd-example-modal-lg">Рассчитать ипотеку</button>
-          </div></div>
-        </div>
+      <div class="row">
+        <div class="col-lg-12 choose">
+         <h2>Вид планировки</h2> 
+         <a href="#0" class="arrow arrowRight ant-carousel-arrow-right" role="button"></a>
+         <a href="#0" class="arrow arrowLeft ant-carousel-arrow-left " role="button"> </a>
+       </div>
+     </div>
+     <div class="row otstupit">
+      <div class="col-lg-12">
+
+        <div class="ant-carousel-hider">
+          <ul class="ant-carousel-list">
+
+           <li class="ant-carousel-element"><img src="img/plan/plan1.webp" alt="0">
+            <p>Секция 1</p>
+          </li>
+          <li class="ant-carousel-element"><img src="img/plan/plan2.webp" alt="1">
+            <p>Секция 2</p>
+          </li>
+          <li class="ant-carousel-element"><img src="img/plan/plan3.webp" alt="2">
+            <p>Секция 3</p>
+          </li>
+          <li class="ant-carousel-element"><img src="img/plan/plan1.webp" alt="0">
+            <p>Секция 1</p>
+          </li>
+          <li class="ant-carousel-element"><img src="img/plan/plan2.webp" alt="1">
+            <p>Секция 2</p>
+          </li>
+          <li class="ant-carousel-element"><img src="img/plan/plan3.webp" alt="2">
+            <p>Секция 3</p>
+          </li>
+          <li class="ant-carousel-element"><img src="img/plan/plan1.webp" alt="0">
+            <p>Секция 1</p>
+          </li>
+          <li class="ant-carousel-element"><img src="img/plan/plan2.webp" alt="1">
+            <p>Секция 2</p>
+          </li>
+          <li class="ant-carousel-element"><img src="img/plan/plan3.webp" alt="2">
+            <p>Секция 3</p>
+          </li>
+        </ul>
       </div>
-    </section>
+
+      <div class="ant-carousel-dots "></div>
+    </div>
+
+  </div>
+</div>
+</div>
+</div>
+</section>
+<!-- End-Слайдер Банки -->
 
 
-    <div class="slider">
-      <div class="container-fluid">
-       <section id="slider_photo" class="slider_kv">
-        <div class="ant-carousel" id="third">
-         <div class="slider">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-12 choose">
-               <h2>Выберите свою новую квартиру</h2> 
-               <a href="#0" class="arrow arrowRight ant-carousel-arrow-right" role="button"></a>
-               <a href="#0" class="arrow arrowLeft ant-carousel-arrow-left " role="button"> </a>
-             </div>
+<section class="mb-150 block_raschet">
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-lg-3">
+        <h3>Рассчитать ипотеку</h3>
+        <p>Рыба текст с описанием комплекса. Не следует, однако забывать, что реализация намеченных плановых заданий</p>
+      </div>
+      <div class="col-lg-3">
+        <div class="form-ctrl"> 
+          <button data-toggle="modal" data-target=".bd-example-modal-lg">Рассчитать ипотеку</button>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="slider">
+    <div class="container-fluid">
+     <section id="slider_photo" class="slider_kv">
+      <div class="ant-carousel" id="third">
+       <div class="slider">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 choose">
+             <h2>Выберите свою новую квартиру</h2> 
+             <a href="#0" class="arrow arrowRight ant-carousel-arrow-right" role="button"></a>
+             <a href="#0" class="arrow arrowLeft ant-carousel-arrow-left " role="button"> </a>
            </div>
-           <div class="row otstupit">
-            <div class="col-lg-12">
+         </div>
+         <div class="row otstupit">
+          <div class="col-lg-12">
 
-              <div class="ant-carousel-hider">
-                <ul class="ant-carousel-list">
-                 <li class="ant-carousel-element">
-                  <img src="img/slider_kvartir/1.jpg" alt="0">
-                  <div class="slider_info">
-                    <p>Жилой комплекс "Южный"</p>
-                    <span>Дата сдачи: 12.08.2121</span>
-                    <a href="complex.html"> <b>&nbsp;</b></a>
-                  </div>
-                </li>
-                <li class="ant-carousel-element">
-                  <img src="img//slider_kvartir/2.jpg" alt="1">
-                  <div class="slider_info">
-                    <p>Жилой комплекс "Южный"</p>
-                    <span>Дата сдачи: 12.08.2121</span>
-                    <a href="complex.html"> <b>&nbsp;</b></a>
-                  </div>
-                </li>
-                <li class="ant-carousel-element">
-                  <img src="img/slider_kvartir/3.jpg" alt="2">
-                  <div class="slider_info">
-                    <p>Жилой комплекс "Южный"</p>
-                    <span>Дата сдачи: 12.08.2121</span>
-                    <a href="complex.html"> <b>&nbsp;</b></a>
-                  </div>
-                </li>
-                <li class="ant-carousel-element">
-                  <img src="img/slider_kvartir/4.jpg" alt="3">
-                  <div class="slider_info">
-                    <p>Жилой комплекс "Южный"</p>
-                    <span>Дата сдачи: 12.08.2121</span>
-                    <a href="complex.html"> <b>&nbsp;</b></a>
-                  </div>
-                </li>
-                <li class="ant-carousel-element">
-                  <img src="img/slider_kvartir/5.jpg" alt="4">
-                  <div class="slider_info">
-                    <p>Жилой комплекс "Южный"</p>
-                    <span>Дата сдачи: 12.08.2121</span>
-                    <a href="complex.html"> <b>&nbsp;</b></a>
-                  </div>
-                </li>
+            <div class="ant-carousel-hider">
+              <ul class="ant-carousel-list">
+               <li class="ant-carousel-element">
+                <img src="img/slider_kvartir/1.jpg" alt="0">
+                <div class="slider_info">
+                  <p>Жилой комплекс "Южный"</p>
+                  <span>Дата сдачи: 12.08.2121</span>
+                  <a href="complex.html"> <b>&nbsp;</b></a>
+                </div>
+              </li>
+              <li class="ant-carousel-element">
+                <img src="img//slider_kvartir/2.jpg" alt="1">
+                <div class="slider_info">
+                  <p>Жилой комплекс "Южный"</p>
+                  <span>Дата сдачи: 12.08.2121</span>
+                  <a href="complex.html"> <b>&nbsp;</b></a>
+                </div>
+              </li>
+              <li class="ant-carousel-element">
+                <img src="img/slider_kvartir/3.jpg" alt="2">
+                <div class="slider_info">
+                  <p>Жилой комплекс "Южный"</p>
+                  <span>Дата сдачи: 12.08.2121</span>
+                  <a href="complex.html"> <b>&nbsp;</b></a>
+                </div>
+              </li>
+              <li class="ant-carousel-element">
+                <img src="img/slider_kvartir/4.jpg" alt="3">
+                <div class="slider_info">
+                  <p>Жилой комплекс "Южный"</p>
+                  <span>Дата сдачи: 12.08.2121</span>
+                  <a href="complex.html"> <b>&nbsp;</b></a>
+                </div>
+              </li>
+              <li class="ant-carousel-element">
+                <img src="img/slider_kvartir/5.jpg" alt="4">
+                <div class="slider_info">
+                  <p>Жилой комплекс "Южный"</p>
+                  <span>Дата сдачи: 12.08.2121</span>
+                  <a href="complex.html"> <b>&nbsp;</b></a>
+                </div>
+              </li>
 
-                <li class="ant-carousel-element">
-                  <img src="img/slider_kvartir/1.jpg" alt="0">
-                  <div class="slider_info">
-                    <p>Жилой комплекс "Южный"</p>
-                    <span>Дата сдачи: 12.08.2121</span>
-                    <a href="complex.html"> <b>&nbsp;</b></a>
-                  </div>
-                </li>
-                <li class="ant-carousel-element">
-                  <img src="img//slider_kvartir/2.jpg" alt="1">
-                  <div class="slider_info">
-                    <p>Жилой комплекс "Южный"</p>
-                    <span>Дата сдачи: 12.08.2121</span>
-                    <a href="complex.html"> <b>&nbsp;</b></a>
-                  </div>
-                </li>
-                <li class="ant-carousel-element">
-                  <img src="img/slider_kvartir/3.jpg" alt="2">
-                  <div class="slider_info">
-                    <p>Жилой комплекс "Южный"</p>
-                    <span>Дата сдачи: 12.08.2121</span>
-                    <a href="complex.html"> <b>&nbsp;</b></a>
-                  </div>
-                </li>
-                <li class="ant-carousel-element">
-                  <img src="img/slider_kvartir/4.jpg" alt="3">
-                  <div class="slider_info">
-                    <p>Жилой комплекс "Южный"</p>
-                    <span>Дата сдачи: 12.08.2121</span>
-                    <a href="complex.html"> <b>&nbsp;</b></a>
-                  </div>
-                </li>
-                <li class="ant-carousel-element">
-                  <img src="img/slider_kvartir/5.jpg" alt="4">
-                  <div class="slider_info">
-                    <p>Жилой комплекс "Южный"</p>
-                    <span>Дата сдачи: 12.08.2121</span>
-                    <a href="complex.html"> <b>&nbsp;</b></a>
-                  </div>
-                </li>
+              <li class="ant-carousel-element">
+                <img src="img/slider_kvartir/1.jpg" alt="0">
+                <div class="slider_info">
+                  <p>Жилой комплекс "Южный"</p>
+                  <span>Дата сдачи: 12.08.2121</span>
+                  <a href="complex.html"> <b>&nbsp;</b></a>
+                </div>
+              </li>
+              <li class="ant-carousel-element">
+                <img src="img//slider_kvartir/2.jpg" alt="1">
+                <div class="slider_info">
+                  <p>Жилой комплекс "Южный"</p>
+                  <span>Дата сдачи: 12.08.2121</span>
+                  <a href="complex.html"> <b>&nbsp;</b></a>
+                </div>
+              </li>
+              <li class="ant-carousel-element">
+                <img src="img/slider_kvartir/3.jpg" alt="2">
+                <div class="slider_info">
+                  <p>Жилой комплекс "Южный"</p>
+                  <span>Дата сдачи: 12.08.2121</span>
+                  <a href="complex.html"> <b>&nbsp;</b></a>
+                </div>
+              </li>
+              <li class="ant-carousel-element">
+                <img src="img/slider_kvartir/4.jpg" alt="3">
+                <div class="slider_info">
+                  <p>Жилой комплекс "Южный"</p>
+                  <span>Дата сдачи: 12.08.2121</span>
+                  <a href="complex.html"> <b>&nbsp;</b></a>
+                </div>
+              </li>
+              <li class="ant-carousel-element">
+                <img src="img/slider_kvartir/5.jpg" alt="4">
+                <div class="slider_info">
+                  <p>Жилой комплекс "Южный"</p>
+                  <span>Дата сдачи: 12.08.2121</span>
+                  <a href="complex.html"> <b>&nbsp;</b></a>
+                </div>
+              </li>
 
-              </ul>
-            </div>
-
-            <div class="ant-carousel-dots d-none"></div>
+            </ul>
           </div>
 
+          <div class="ant-carousel-dots d-none"></div>
         </div>
+
       </div>
     </div>
   </div>
+</div>
 </section>
 </div>
 </div>
@@ -504,7 +521,7 @@
         </div>
         <div class="form-ctrl"> 
           <b>Телефон</b>
-                   <input type="text" name="telephone" placeholder="+7___ ___ __ __" onkeyup="this.value = this.value.replace (/\D/, '')">
+          <input type="text" name="telephone" placeholder="+7___ ___ __ __" onkeyup="this.value = this.value.replace (/\D/, '')">
         </div>
         <div class="form-ctrl"> 
           <button>Отправить</button>
@@ -527,21 +544,21 @@
         <p>Строительство многоквартирных
         и индивидуальных жилых домов.</p>
       </div>
-     <div class="  col-lg-3">
+      <div class="  col-lg-3">
         <ul class="navi">
           <li><a href="objects.html">Объекты</a></li>
           <li><a href="uslugi.html">Услуги</a></li>
           <li><a href="o_zastroishike.html">О застройщике </a></li>       
         </ul>
       </div>
-          <div class=" col-lg-3 col-md-3 col-sm-12">
+      <div class=" col-lg-3 col-md-3 col-sm-12">
         <ul class="navi">
           <li><p>с 9:00 до 18:00</p></li>
           <li><p>Воронежская обл., Новоусманский р-н, с. Новая Усмань, ул. Раздольная, д.2</p></li>
           <li><a href="#" class="show_map">Показать на карте</a></li>
         </ul>
       </div>
-        <div class=" col-lg-3 col-md-3 col-sm-12">
+      <div class=" col-lg-3 col-md-3 col-sm-12">
         <ul class="navi">
           <li><p>+7 (473) 272-78-31</p></li>
           <li><p>+7 (473) 205-12-19</p></li>
@@ -620,13 +637,18 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
- 
+
 
 
 <script src="js/slider4.js"></script>
-<script src="js/slider6.js"></script> 
- 
+<!-- <script src="js/slider2.js"></script>
+  <script>new Ant("fourth")</script> -->
+  <script src="js/slider6.js"></script> 
 
-<script src="js/main.js"></script>
+
+  <script src="js/main.js"></script>
+
+
+
 </body>
 </html>

@@ -4,7 +4,7 @@
 // When the user scrolls down 20px from the top of the document, show the button
 $(document).ready(function(){
 
-    $(function (){
+	$(function (){
 		$("#ToTheTop").hide();
 
 		$(window).scroll(function (){
@@ -24,6 +24,7 @@ $(document).ready(function(){
 	});
 });
 
+ // alert($(".images img").innerWidth());
 
 
 // window.onscroll = function() {scrollFunction()};
@@ -43,7 +44,7 @@ $(document).ready(function(){
 // 			jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1100);
 // 			return false;
 // 		});
- 
+
 //     // document.body.scrollTop = 0; // For Safari
 //     // document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 // }

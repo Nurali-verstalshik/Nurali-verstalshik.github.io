@@ -9,6 +9,8 @@ for(let li of carousel.querySelectorAll('li')) {
 }
 
 /* конфигурация */
+
+ 
     let width = 282; // ширина картинки
     let count = 4; // видимое количество изображений
 
