@@ -460,7 +460,7 @@
  #slider_goods {
  	margin-bottom: 141px;
  }
-
+#slider_plan h2,
  #slider_goods h2,
  #slider_photo h2 {
  	font-weight: bold;
@@ -845,7 +845,7 @@ article a::after {
 	color: #6E7988;
 	font-size: 0.875rem
 }
-.docs li::before {
+.docs li a::before {
 	content: "";
 	background-image: url(../img/complex_icon6.png);
 	width: 20px;
@@ -1182,7 +1182,7 @@ article a::after {
 		border-radius: 4px;
 	}
 	#slider_plan .ant-carousel-element {
-		max-width: 100%;
+		
 		margin: 0 10px;
 		/*text-align: center;*/
 		border: 0.2px solid #ffffff;
@@ -1724,14 +1724,28 @@ article a::after {
 	.modal-content{
 		background: #EBF1F8;
 		border-radius: 4px;
+		width: 90%;
+display: block;
+margin: 0 auto;
 	}
+
+	.modal-content .close {
+    position: absolute;
+    z-index: 999;
+    color: #6E7988;
+    font-size: 0.800rem;
+    right: 5%;
+    top: -6%;
+    font-size: 12px;
+    font-size: 20px !important;
+}
 
 	.modal-content input {
 		width: 100%;
 		border: 1px solid #ADBDD2;
 		color: #ADBDD2;
 		border-radius: 5px;
-		margin: 0!important;
+		margin: 5px!important;
 		border-top: 0;
 		font-size: 0.75rem;
 		padding: 5px;
@@ -1753,7 +1767,7 @@ article a::after {
 		outline:none!important;
 		border: none;
 	}
-	.modal-content span {
+	.modal-content .container span {
 		position: absolute;
 		z-index: 999;
 		color: #6E7988;
@@ -1791,8 +1805,13 @@ article a::after {
 		text-align: center;
 		max-width: 565px;
 		color: #6E7988;
-
 	}
+	.close_modal {
+		text-align: right;
+padding: 10px 20px;
+
+}
+
 	.modal-content button{
 		margin-top: 70px;
 		font-size: 1rem;
@@ -1801,384 +1820,3 @@ article a::after {
 	}
 
 
-
-
-	/*media zaprosi*/
-	@media screen and (max-width: 400px) {
-
-		.breadcrumb {
-			margin: 0;
-			padding: 15px;
-		}
-
-		article h3 {
-			font-family: 'Montserrat', sans-serif;
-			font-size: 1.5rem;
-			text-align: center;
-		}
-		article p {
-			max-width: 470px;
-			display: block;
-			margin: 40px 0 5px 0;
-			font-size: 0.875rem;
-			color: #143561;
-			text-align: center;
-		}
-		.experiense, .work_done {
-			max-width: 100%;
-			margin: 5px;
-			font-size: 2.0rem;
-			text-align: center;
-			display: inline-block;
-			vertical-align: middle;
-		}
-		.experiense_years {
-			font-size: 2.0rem;
-		}
-		.main_article img {
-			display: none;
-		}
-		article a {
-			display: block;
-			margin: 5px auto;
-			text-align: center;
-		}
-		.offer_info h1 {
-			font-size: 2.0rem;
-		}
-		.offer_info {
-			text-align: center;
-			margin: 10px;
-		}
-		.offer_info a {
-			display: block;
-			margin: 0 auto;
-		}
-		#offer {
-			min-height: auto;
-			margin-bottom: 10px;
-		}
-		.toTop {
-			bottom: 5%;
-			right: 15px;
-		}
-		.arrow {
-			width: 46%;
-		}
-
-		.ant-carousel-element{
-			text-align: center;
-		}
-
-		#slider_photo .ant-carousel-element,
-		#slider_plan img:hover, #slider_photo .ant-carousel-element:hover {
-			border: none;
-		}
-		
-		#slider_uslug .choose a {
-			position: revert!important;
-			text-align: center;
-			float: none;
-			display: block;
-		}
-		#slider_uslug h2 {
-			float: none;
-			text-align: center;
-		}
-		#slider_uslug .blocks2 li {
-			max-width: 261px!important;
-			margin-right: 0;
-			margin-bottom: 5px;
-		}
-		#slider_uslug .blocks li {
-			/*max-width: 261px!important;*/
-			margin-right: 0;
-			margin-bottom: 5px;
-		}
-		#slider_uslug .blocks1 li {
-			max-width: 261px!important;
-			margin-right: 0;
-			margin-bottom: 5px;
-		}
-		.usluga_info .img-left li::before {
-			background-image: none;
-			padding: 0;
-		}
-
-		.uslugi_news_wrapper h1 {
-			font-size: 2.505rem;
-		}
-		#slider_uslug .ant-carousel-element p {
-			width: 100%;
-			margin: 30px 0px;
-			padding: 10px;
-			text-align: center;
-		}
-		#consulting h2 {
-			text-align: center;
-		}
-		#consulting {
-			height: auto;
-		}
-		form {
-			-ms-grid-columns: (1fr)[1];
-			grid-template-columns: repeat(1, 1fr);
-		}
-		.form-ctrl {
-			margin: 0;
-			margin-bottom: 10px;
-			text-align: center;
-		}
-		.form-ctrl b{
-			display: none;
-		}
-		#consulting input {
-			max-width: 100%;
-			display: block;
-			margin: 0 auto;
-			margin-bottom: 10px;
-		}
-		.form-ctrl button {
-			margin: 0;
-			width: 100%;
-		}
-		.form-ctrl span {
-			width: auto;
-		}
-		footer img,
-		footer p,
-		footer li,
-		footer ul,
-		footer .navi,
-		.nav_link
-		{
-			padding: 0;
-			margin: 0;
-			display: block;
-			margin: 10px auto;
-			text-align: center;
-
-		}
-		article a::after {
-			background-image: none;
-		}
-		#slider_photo .ant-carousel-hider {
-			margin-left: -15px!important;
-		}
-		#slider_uslug .blocks li a::after {
-			background-image: none;
-		}
-		#slider_uslug .blocks li p::after {
-			width: 100%;
-			display: block;
-			margin: 0 auto;
-			left: 0;
-			right: 0;
-			text-align: center;
-
-
-		}
-		.ant-carousel-hider {
-			margin: 0;
-		}
-		.navbar-brand {
-			float: left;
-			display: block;
-			margin: 0;
-		}
-		.object {
-			height: 98%;
-			margin-bottom: 10px;
-		}
-		.object img {
-			height: auto;
-		}
-		.object .wrap {
-			margin: 10px;
-			padding: 10px;
-		}
-		.object img {
-			height: auto;
-			float: none;
-			width: 100%;
-			margin: 10px 0;
-		}
-		.object h3 {
-			float: none;
-			text-align: center;
-		}
-		.object .wrap {
-			width: 100%;
-			margin: 0;
-		}
-		.object .body_wrap p {
-			float: none;
-		}
-		.wrap p {
-			-webkit-box-align: baseline;
-			-ms-flex-align: baseline;
-			align-items: baseline;
-			margin-right: 15px;
-		}
-		.footer_wrap {
-			display: -ms-grid;
-			display: grid;
-			-ms-grid-columns: (1fr)[1];
-			grid-template-columns: repeat(1,1fr);
-			justify-items: legacy;
-		}
-		.ar {
-			background-image: none;
-		}
-		.object .price {
-			margin: 10px auto;
-			display: block;
-		}
-		#consulting {
-			padding: 10px;
-		}
-		#slider_uslug .uslugi-list {
-			-ms-grid-columns: 1fr;
-			grid-template-columns: repeat(1,1fr);
-			grid-auto-columns: 1fr;
-			margin: 10px 0;
-			padding: 0 10px;
-		}
-		.mb-150 {
-			margin-bottom: 20px;
-		}
-
-
-
-		.usluga_info .img-right p {
-			margin: 10px 0;
-		}
-		.usluga_info a {
-			margin: 20px auto;
-			width: 100%;
-		}
-		.usluga_info .img-left p, .usluga_info .img-left li {
-			padding: 10px;
-			text-align: center;
-		}
-		.page_preimushestva img{
-			display: block;
-			margin: 10px auto;
-		}
-		.page_preimushestva p {
-			text-align: center;
-			display: block;
-			margin: 10px auto;
-			max-width: 100%;
-			width: 100%;
-		}
-
-		.content_text2 ul {
-			display: -ms-grid;
-			display: grid;
-			-ms-grid-columns: (1fr)[2];
-			grid-template-columns: repeat(2,1fr);
-			grid-row-gap: 10px;
-			
-		}
-		.content_text2 ul li {
-			font-size: 0.600rem;
-			width: 90%;
-		}
-		#offer2 {
-			top: -5px;
-			margin-bottom: 10px;
-		}
-		.slid {
-			width: 100%; 
-		}
-		.slid a,
-		.slid div {
-			margin-right: 10px;
-		}
-		.obj_wrap {
-			max-width: 550px;
-			width: 100%;
-			margin: 20px auto;
-		}
-		.data_expl {
-			width: 100%;
-			max-width: 100%;
-			text-align: center;
-		}
-		.obj_wrap hr {
-			margin: 0;
-		}
-		.experiense_header {
-			font-size: 0.65rem !important;
-		}
-		.obj_wrap .experiense, .work_done {
-			margin-right: 0px;
-			margin: 10px 2px;
-			display: inline-block;
-			vertical-align: middle;
-		}
-		.list-group {
-			-webkit-box-orient: vertical;
-			-webkit-box-direction: normal;
-			-ms-flex-direction: column;
-			flex-direction: column;
-			text-align: center;
-		}
-		.list-group-item {
-			margin: 5px 0;
-		}
-		#tabs hr {
-			margin: 10px 0;
-		}
-		.tab-pane {
-			padding: 10px;
-		}
-		.prem {
-			padding: 0;
-			-ms-grid-columns: 0.5fr 20px 0.5fr;
-			grid-template-columns: repeat(2,0.5fr);
-		}
-		.map {
-			padding: 10px;
-		}
-
-		.docs {
-			-webkit-column-count: 1;
-			-moz-column-count: 1;
-			column-count: 1;
-		}
-		.docs a {
-			color: #6E7988;
-			font-size: 0.805rem;
-		}
-		.arrowPlace {
-			width: 100%;
-		}
-		  
-		.block_raschet .form-ctrl {
-			display: block;
-			margin: 10px auto;
-		}
-		#mision .content_text {
-			padding: 0 15px;
-		}
-		.choose h2 {
-			text-align: center;
-			width: 100%;
-		}
-		#mision {
-			margin-bottom: 20px;
-		}
-		#offer2 .breadcrumb {
-			margin-top: 0px;
-		}
-		#slider_plans img {
-			width: 100%;
-		}
-		#slider_plan {
-			display: none;
-		}
-
-
-	}

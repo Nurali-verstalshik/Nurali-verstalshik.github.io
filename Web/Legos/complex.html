@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="preload" href="css/bootstrap-reboot.css" as="style">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/media.css">
   <title>Жилой комплекс «ЮЖНЫЙ»</title>
 
   <!-- Основные стили -->
@@ -277,7 +278,7 @@
           <div class="col">
 
 
-<iframe src="js/demo/demos/full.html" style="width: 100%; height:350px;"></iframe>
+<iframe src="js/demo/demos/full.html" style="width: 100%; height:390px;"></iframe>
              
 
                 
@@ -587,25 +588,29 @@
 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">x</span>
+        </button>
+    <!--   <div class="close_modal" onclick="$('.modal').removeClass('show');$('.modal').css('display','none');">x</div> -->
       <h2>Ипотечный калькулятор</h2>
 
       <div class="container ">
         <div class="row justify-content-center">
 
 
-          <div class="col-3">
+          <div class="col-12 col-sm-12 col-md-3">
             <span>Стоимость недвижимости, руб.</span>
             <input type="text"   min="0" onkeyup="this.value = this.value.replace (/\D/, '')"   placeholder="4600000">
           </div>
-          <div class="col-3">
+          <div class="col-12 col-sm-12 col-md-3">
             <span>Срок кредита, лет</span>
             <input type="text"   min="0" onkeyup="this.value = this.value.replace (/\D/, '')"  placeholder="15">
           </div>
-          <div class="col-3">
+          <div class="col-12 col-sm-12 col-md-3">
             <span>Первоначальный взнос</span>
             <input type="text"   min="0" onkeyup="this.value = this.value.replace (/\D/, '')"  placeholder="1400000">
           </div>
-          <div class="col-3">
+          <div class="col-12 col-sm-12 col-md-3">
             <span>Ставка по ипотеке, %</span>
             <input type="text"    min="0" onkeyup="this.value = this.value.replace (/\D/, '')" placeholder="10">
           </div>
@@ -615,7 +620,7 @@
       </div>
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-10">
+          <div class="col-12">
            <div class="calc_info">
             <div>Приблизительный ежемесячный платеж _________________ 43453 руб</div> 
             <div>Сумма процентов за весь период ________________________714284 руб</div>
