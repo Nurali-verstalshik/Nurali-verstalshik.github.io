@@ -1182,7 +1182,7 @@ article a::after {
 		border-radius: 4px;
 	}
 	#slider_plan .ant-carousel-element {
-		/*max-width: 265px;*/
+		max-width: 100%;
 		margin: 0 10px;
 		/*text-align: center;*/
 		border: 0.2px solid #ffffff;
@@ -1191,6 +1191,7 @@ article a::after {
 	}
 	#slider_plan img {
 		border: 0.2px solid #ffffff;
+		width: 100%;
 	}
 
 	#slider_plan .ant-carousel-element p{
@@ -2085,7 +2086,7 @@ article a::after {
 			width: 90%;
 		}
 		#offer2 {
-			top: 0;
+			top: -5px;
 			margin-bottom: 10px;
 		}
 		.slid {
@@ -2109,7 +2110,7 @@ article a::after {
 			margin: 0;
 		}
 		.experiense_header {
-			font-size: 0.70rem !important;
+			font-size: 0.65rem !important;
 		}
 		.obj_wrap .experiense, .work_done {
 			margin-right: 0px;
@@ -2154,14 +2155,7 @@ article a::after {
 		.arrowPlace {
 			width: 100%;
 		}
-		#slider_plan .ant-carousel-element {
-			max-width: 265px;
-		}
-		#slider_plan img {
-			border: 0.2px solid #ffffff;
-			width: 100%;
-			height: auto;
-		}
+		  
 		.block_raschet .form-ctrl {
 			display: block;
 			margin: 10px auto;
@@ -2178,6 +2172,12 @@ article a::after {
 		}
 		#offer2 .breadcrumb {
 			margin-top: 0px;
+		}
+		#slider_plans img {
+			width: 100%;
+		}
+		#slider_plan {
+			display: none;
 		}
 
 
