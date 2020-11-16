@@ -1,0 +1,1315 @@
+ @media (min-width:200px)and (max-width:299px) {
+
+   .wr::before {
+    content: "";
+    top: -202px;
+    left: 50px;
+  }
+  .faworite-button {
+    top: -260px;
+    left: 92px;
+    z-index: 2;
+  }
+  .add-button {
+   top: -260px;
+   left: 101px;
+   z-index: 2; 
+ }
+ .flag {
+  visibility: hidden;
+  display: none;
+}
+.fast-buy-btn {
+  top: -105px;
+}
+.card-list-item {
+  padding-top: 0;
+}
+.card-hits-1:hover {
+  filter: brightness(1);
+}
+
+.card-info h3 {
+  margin-top: 15px;
+}
+
+.card-list {
+  padding: 25px;
+}
+
+.footer-menu-list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.main-instagram {
+  margin-bottom: 85px;
+}
+
+.footer-copyrate {
+  margin: 0;
+}
+.footer-inst-logo {
+  margin: 0;
+  float: right;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+
+}
+.list-copyrait {
+  display: flex;
+  color: #AFAFAF;
+  flex-direction: column;
+  position: relative;
+  padding: 0 10px;
+}
+.footer-inst-logo {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.why-AreWe-list {
+  display: block;
+}
+#Burger {
+  display: block;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+}
+header, .navbar-brand {
+  display: none;
+}
+main {
+  font-size: 11px;
+}
+.flag {
+  visibility: hidden;
+  display: none;
+}
+.card-relevant-1,
+.card-relevant-2,
+.card-relevant-3,
+.card-relevant-4,
+.card-relevant-5,
+.card-relevant-6,
+.card-relevant-7, 
+.card-relevant-8,
+.card-hits-1,
+.card-hits-2,
+.card-hits-3,
+.card-hits-4,
+.card-hits-5,
+.card-hits-6,
+.card-hits-7,
+.card-hits-8 {
+  background-size: contain;
+  background-position: center;
+  background-position: top;
+  border: 1px solid white;
+  margin-bottom: 95px;
+}
+
+.right-leaves,
+.left-leaves {
+ width: 300px;
+ height: 300px;
+ opacity: 0.7;
+}
+.left-leaves {
+  position: absolute;
+  top: -183px;
+  left: -32px;
+}
+.right-leaves {
+  position: absolute;
+  top: 340px;
+  right: -50px;
+}
+.why-AreWe-p {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.why-AreWe-caption-item {
+  font-size: 14px;
+  font-weight: 500;
+}
+.why-AreWe-caption {
+  font-size: 2.625rem;
+  font-weight: normal;
+  /* text-align: center; */
+  /* margin-bottom: 70px; */
+  font-family: "Lovelace";
+  font-weight: 500;
+  font-size: 20px;
+}
+.why-AreWe {
+  padding: 0;
+  margin: 0;
+  padding-top: 85px;
+
+}
+.why-AreWe-caption {
+  margin-bottom: 10px;
+}
+.why-AreWe {
+  position: relative;
+}
+.main-caption {
+  margin: 0;
+  margin: 85px 0 45px 0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.card-list-item {
+  padding-top: 0;
+}
+.card-text {
+  max-width: 235px;
+}
+.card-list-hover {
+  display: block;
+}
+
+.card-relevant-1:hover,
+.card-relevant-2:hover,
+.card-relevant-3:hover,
+.card-relevant-4:hover,
+.card-relevant-5:hover,
+.card-relevant-6:hover,
+.card-relevant-7:hover,
+.card-relevant-8:hover,
+.card-hits-1:hover,
+.card-hits-2:hover,
+.card-hits-3:hover,
+.card-hits-4:hover,
+.card-hits-5:hover,
+.card-hits-6:hover,
+.card-hits-7:hover,
+.card-hits-8:hover  {
+  filter: brightness(1);
+}
+
+.card-list-item {
+  box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.1);
+}
+article {
+  background-color: white;
+  margin-top: -13px;
+}
+.card-info h3 {
+  margin-top: -10px;
+} 
+
+.flag {
+  display: none;
+}
+.card-caption {
+  padding: 10px;
+  height: 55px;
+}
+.faworite-button {
+  top: -260px;
+  left: 92px;
+  z-index: 2;
+}
+.add-button {
+ top: -260px;
+ left: 101px;
+ z-index: 2; 
+}
+.wr::before { 
+  content: "";
+  width: 130px;
+  height: 64px;
+  position: relative; 
+  background: black;
+  opacity: 0.5;
+  z-index: 1;
+  border-radius: 40px;
+  margin: 0;
+  top: -202px; 
+  left: 84px;
+}
+.fast-buy-btn {
+  top: -105px;
+}
+.products,
+.main-instagram{
+  padding: 15px;
+}
+.card-list-item img {
+  border-radius: 20px 20px 0px 0px;
+}
+.main-instagram-list-item {
+  background-color:white;
+}
+.main-instagram-list-item img{
+  filter: brightness(85%);
+}
+.main-instagram-list-item:hover {
+  filter: brightness(100%); 
+}
+.main-instagram-list-item:not(:last-child) {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  display: block;
+}
+
+}
+
+
+
+@media (min-width:300px) and (max-width: 400px) {
+
+
+  .card-hits-1:hover {
+    filter: brightness(1);
+  }
+
+  .card-info h3 {
+    margin-top: 15px;
+  }
+
+  .card-list {
+    padding: 25px;
+  }
+
+  .footer-menu-list {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+
+  .main-instagram {
+    margin-bottom: 85px;
+  }
+
+  .footer-copyrate {
+    margin: 0;
+  }
+  .footer-inst-logo {
+    margin: 0;
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+  }
+  .list-copyrait {
+    display: flex;
+    color: #AFAFAF;
+    flex-direction: column;
+    position: relative;
+    padding: 0 10px;
+  }
+  .footer-inst-logo {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+
+  .why-AreWe-list {
+    display: block;
+  }
+  #Burger {
+    display: block;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+  }
+  header {
+    display: none;
+  }
+  .flag {
+    visibility: hidden;
+    display: none;
+  }
+  .card-relevant-1,
+  .card-relevant-2,
+  .card-relevant-3,
+  .card-relevant-4,
+  .card-relevant-5,
+  .card-relevant-6,
+  .card-relevant-7, 
+  .card-relevant-8,
+  .card-hits-1,
+  .card-hits-2,
+  .card-hits-3,
+  .card-hits-4,
+  .card-hits-5,
+  .card-hits-6,
+  .card-hits-7,
+  .card-hits-8 {
+    background-size: contain;
+    background-position: center;
+    background-position: top;
+    border: 1px solid white;
+    margin-bottom: 95px;
+  }
+
+  .right-leaves,
+  .left-leaves {
+   width: 300px;
+   height: 300px;
+   opacity: 0.7;
+ }
+ .left-leaves {
+  position: absolute;
+  top: -183px;
+  left: -32px;
+}
+.right-leaves {
+  position: absolute;
+  top: 340px;
+  right: -50px;
+}
+.why-AreWe-p {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.why-AreWe-caption-item {
+  font-size: 14px;
+  font-weight: 500;
+}
+.why-AreWe-caption {
+  font-size: 2.625rem;
+  font-weight: normal;
+  /* text-align: center; */
+  /* margin-bottom: 70px; */
+  font-family: "Lovelace";
+  font-weight: 500;
+  font-size: 20px;
+}
+.why-AreWe {
+  padding: 0;
+  margin: 0;
+  padding-top: 85px;
+
+}
+.why-AreWe-caption {
+  margin-bottom: 10px;
+}
+.why-AreWe {
+  position: relative;
+}
+.main-caption {
+  margin: 0;
+  margin: 85px 0 45px 0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.card-list-item {
+  padding-top: 0;
+}
+.card-text {
+  max-width: 235px;
+}
+.card-list-hover {
+  display: block;
+}
+
+.card-relevant-1:hover,
+.card-relevant-2:hover,
+.card-relevant-3:hover,
+.card-relevant-4:hover,
+.card-relevant-5:hover,
+.card-relevant-6:hover,
+.card-relevant-7:hover,
+.card-relevant-8:hover,
+.card-hits-1:hover,
+.card-hits-2:hover,
+.card-hits-3:hover,
+.card-hits-4:hover,
+.card-hits-5:hover,
+.card-hits-6:hover,
+.card-hits-7:hover,
+.card-hits-8:hover  {
+  filter: brightness(1);
+}
+
+.card-list-item {
+  box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.1);
+}
+article {
+  background-color: white;
+  margin-top: -13px;
+}
+.card-info h3 {
+  margin-top: -10px;
+} 
+
+.flag {
+  display: none;
+}
+.card-caption {
+  padding: 10px;
+  height: 55px;
+}
+.faworite-button {
+  top: -260px;
+  left: 92px;
+  z-index: 2;
+}
+.add-button {
+ top: -260px;
+ left: 101px;
+ z-index: 2; 
+}
+.wr::before { 
+  content: "";
+  width: 130px;
+  height: 64px;
+  position: relative; 
+  background: black;
+  display: block;
+  opacity: 0.5;
+  z-index: 1;
+  border-radius: 40px;
+  margin: 0;
+  top: -202px; 
+  left: 84px;
+}
+.fast-buy-btn {
+  top: -105px;
+}
+.products,
+.main-instagram{
+  padding: 15px;
+}
+.card-list-item img {
+  border-radius: 20px 20px 0px 0px;
+}
+.main-instagram-list-item {
+  background-color:white;
+}
+.main-instagram-list-item img{
+  filter: brightness(85%);
+}
+.main-instagram-list-item:hover {
+  filter: brightness(100%); 
+}
+.main-instagram-list-item:not(:last-child) {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  display: block;
+}
+.img-position-catalog  {
+  margin-top: 20px;
+}
+.catalog-position-links {
+  display: none;
+}
+.catalog .main-caption {
+  margin-top: 144px;
+  margin-bottom: 30px;
+}
+}
+@media (min-width: 400px) and (max-width:574px){
+
+ .wr::before {
+  display: none;
+}
+.faworite-button {
+  top: -260px;
+  left: 30%;
+  z-index: 2;
+}
+.add-button {
+ top: -260px;
+ left: unset;
+ left: 50%;
+ z-index: 2; 
+}
+.flag {
+  visibility: hidden;
+  display: none;
+}
+.fast-buy-btn {
+  top: -25px;
+}
+.card-list-item {
+  padding-top: 0;
+}
+.card-hits-1:hover {
+  filter: brightness(1);
+}
+
+.card-info h3 {
+  margin-top: 15px;
+}
+
+.card-list {
+  padding: 25px;
+}
+
+.footer-menu-list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.main-instagram {
+  margin-bottom: 85px;
+}
+
+.footer-copyrate {
+  margin: 0;
+}
+.footer-inst-logo {
+  margin: 0;
+  float: right;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+
+}
+.list-copyrait {
+  display: flex;
+  padding: 0 10px;
+  color: #AFAFAF;
+  flex-direction: column;
+  position: relative;
+}
+.footer-inst-logo {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.why-AreWe-list {
+  display: block;
+}
+#Burger {
+  display: block;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+}
+header  {
+  display: none;
+}
+main {
+  font-size: 11px;
+}
+.flag {
+  visibility: hidden;    display: none;
+
+}
+.card-relevant-1,
+.card-relevant-2,
+.card-relevant-3,
+.card-relevant-4,
+.card-relevant-5,
+.card-relevant-6,
+.card-relevant-7, 
+.card-relevant-8,
+.card-hits-1,
+.card-hits-2,
+.card-hits-3,
+.card-hits-4,
+.card-hits-5,
+.card-hits-6,
+.card-hits-7,
+.card-hits-8 {
+  background-size: contain;
+  background-position: center;
+  background-position: top;
+  border: 1px solid white;
+  margin-bottom: 95px;
+}
+
+.right-leaves,
+.left-leaves {
+ width: 300px;
+ height: 300px;
+ opacity: 0.7;
+}
+.left-leaves {
+  position: absolute;
+  top: -183px;
+  left: -32px;
+}
+.right-leaves {
+  position: absolute;
+  top: 340px;
+  right: -50px;
+}
+.why-AreWe-p {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.why-AreWe-caption-item {
+  font-size: 14px;
+  font-weight: 500;
+}
+.why-AreWe-caption {
+  font-size: 2.625rem;
+  font-weight: normal;
+  /* text-align: center; */
+  /* margin-bottom: 70px; */
+  font-family: "Lovelace";
+  font-weight: 500;
+  font-size: 20px;
+}
+.why-AreWe {
+  padding: 0;
+  margin: 0;
+  padding-top: 85px;
+
+}
+.why-AreWe-caption {
+  margin-bottom: 10px;
+}
+.why-AreWe {
+  position: relative;
+}
+.main-caption {
+  margin: 0;
+  margin: 85px 0 45px 0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.card-list-item {
+  padding-top: 0;
+}
+.card-text {
+  max-width: 235px;
+}
+.card-list-hover {
+  display: block;
+}
+
+.card-relevant-1:hover,
+.card-relevant-2:hover,
+.card-relevant-3:hover,
+.card-relevant-4:hover,
+.card-relevant-5:hover,
+.card-relevant-6:hover,
+.card-relevant-7:hover,
+.card-relevant-8:hover,
+.card-hits-1:hover,
+.card-hits-2:hover,
+.card-hits-3:hover,
+.card-hits-4:hover,
+.card-hits-5:hover,
+.card-hits-6:hover,
+.card-hits-7:hover,
+.card-hits-8:hover  {
+  filter: brightness(1);
+}
+
+.card-list-item {
+  box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.1);
+}
+article {
+  background-color: white;
+  margin-top: -13px;
+}
+.card-info h3 {
+  margin-top: -10px;
+} 
+
+.flag {
+  display: none;
+  display: none;
+}
+.card-caption {
+  padding: 10px;
+  height: 55px;
+}
+
+.wr::before { 
+  content: "";
+  width: 130px;
+  height: 64px;
+  position: relative; 
+  background: black;
+  opacity: 0.5;
+  z-index: 1;
+  border-radius: 40px;
+  margin: 0;
+  top: -202px; 
+  left: 84px;
+}
+.fast-buy-btn {
+  top: -45px;
+}
+.products,
+.main-instagram{
+  padding: 15px;
+}
+.card-list-item img {
+  border-radius: 20px 20px 0px 0px;
+}
+.main-instagram-list-item {
+  background-color:white;
+}
+.main-instagram-list-item img{
+  filter: brightness(85%);
+}
+.main-instagram-list-item:hover {
+  filter: brightness(100%); 
+}
+.main-instagram-list-item:not(:last-child) {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  display: block;
+}
+.img-position-catalog  {
+  margin-top: 20px;
+}
+.catalog-position-links {
+  display: none;
+}
+.catalog .main-caption {
+  margin-top: 144px;
+  margin-bottom: 30px;
+}
+}
+
+@media (min-width: 575px) and (max-width:767px){
+
+ .add-button {
+  top: -325px;
+}
+
+#Burger {
+  display: block;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+}
+header {
+  display: none;
+}
+
+.why-AreWe {
+  margin-bottom: 150px;
+  background-color: #ECE2D6;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.card-relevant-1,
+.card-relevant-2,
+.card-relevant-3,
+.card-relevant-4,
+.card-relevant-5,
+.card-relevant-6,
+.card-relevant-7,
+.card-relevant-8,
+.card-hits-1,
+.card-hits-2,
+.card-hits-3,
+.card-hits-4,
+.card-hits-5,
+.card-hits-6,
+.card-hits-7,
+.card-hits-8 {
+  background-size: contain;
+  background-position: top;
+}
+.main-caption,
+.why-AreWe-caption {
+  font-size: 2rem;
+  
+}
+
+
+.footer-menu-list li {
+  display: block;
+  width: 49%;
+}
+.flag {
+  visibility: visible;
+  display: none;
+}
+
+img [src*="leaves"] {
+  visibility: hidden;
+}
+
+
+
+.card-relevant-1,
+.card-relevant-2,
+.card-relevant-3,
+.card-relevant-4,
+.card-relevant-5,
+.card-relevant-6,
+.card-relevant-7,
+.card-relevant-8,
+.card-hits-1,
+.card-hits-2,
+.card-hits-3,
+.card-hits-4,
+.card-hits-5,
+.card-hits-6,
+.card-hits-7,
+.card-hits-8 {
+  width: 100%;
+}
+
+
+.footer-menu-list {
+  display: inline-block;
+  padding: 10px 20px;
+  padding-top: 20px;
+  margin-right: 25px;
+  color:  #19191D;
+  width: 100%;
+}
+
+footer a {
+  color:  #19191D;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.list-copyrait {
+  display: block;
+  padding:  15px;
+  position: relative;
+  margin: 0;
+}
+.footer-copyrate {
+  margin: 0;
+}
+.footer-inst-logo {
+  margin: 0;
+  float: right;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+
+}
+.card-list-hover {
+  /*  display: block;*/
+}
+.wr {
+  display: inline-block;
+}
+.why-AreWe-list {
+  display: block;
+}
+.img-position-catalog  {
+  margin-top: 20px;
+}
+.catalog-position-links {
+  display: none;
+}
+.catalog .main-caption {
+  margin-top: 144px;
+  margin-bottom: 30px;
+}
+}
+
+@media (min-width: 767px) and (max-width:827px) {
+  #Burger {
+    display: block;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+  }
+  header {
+    display: none;
+  }
+  .header-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .header-phone {
+    margin: 0;
+  }
+  .logo {
+    margin: 0 5px;
+  }
+
+  .header-list li {
+    margin: 0!important;
+  }
+  .menu-header .search {
+    display: none;
+  }
+  .menu {
+    float: none;
+  }
+  .menu li:last-child{
+    margin-right: 0;
+  }
+  .mobileMenu a, .mobileMenu li {
+    margin-left: 10px;
+  }
+  .fast-buy-btn {
+    top: -65px;
+  }
+  .main-instagram-list-item-img {
+    top: 35%;
+  } 
+
+  .why-AreWe-list {
+    display: block;
+  }
+
+  article {
+    background-color: none;
+  } 
+.footer-menu-list {
+  display: inline-block;
+  padding: 10px 20%;
+  padding-top: 20px;
+  margin-right: 25px;
+  color:  #19191D;
+  width: 100%;
+}
+
+footer a {
+  color:  #19191D;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.list-copyrait {
+  display: block;
+  padding:  15px;
+  position: relative;
+  margin: 0;
+}
+.footer-copyrate {
+  margin: 0;
+}
+.footer-inst-logo {
+  margin: 0;
+  float: right;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+
+}
+.img-position-catalog  {
+  margin-top: 20px;
+}
+.catalog-position-links {
+  display: block;
+  margin-top: 50px;
+}
+.catalog .main-caption {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+}
+@media (min-width: 827px) and (max-width: 991px) {
+
+  #Burger {
+    display: block;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+  }
+  header {
+    display: none;
+  }
+  .mobileMenu a, .mobileMenu li {
+    margin-left: 14px;
+  }
+
+  .header-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .header-phone {
+    margin: 0;
+  }
+  .logo {
+    margin: 0 5px;
+  }
+
+  .header-list li {
+    margin: 0!important;
+  }
+  .menu-header .search {
+    display: none;
+  }
+  .menu {
+    float: none;
+  }
+  .menu li:last-child{
+    margin-right: 0;
+  }
+  .why-AreWe-list {
+    display: block;
+  }
+  .why-AreWe-caption-item {
+    margin-bottom: 15px;
+    margin-top: -5px;
+  }
+  .main-instagram-list-item-img {
+   top: 50px;
+   left: 41%; 
+ }
+.main-instagram-list-item .card-1 {
+  display: block;
+  margin: 0 auto;
+}
+
+ .main-instagram-list-item-like {
+  bottom: 120px;
+  left: 50px;
+ }
+ .main-instagram-list-item-comment {
+   right: unset;
+  bottom: 95px;
+   z-index: 2;
+  left: 50px;
+}
+.card-caption {
+  margin-top: -0px;
+}
+.why-AreWe-list {
+  display: block;
+}
+.flag {
+  display: none;
+}
+.wr::before {
+  display: none;
+}
+.footer-menu-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20%;
+}
+.list-copyrait {
+  display: flex;
+  color: #AFAFAF;
+  flex-direction: column;
+  position: relative;
+  padding: 0 10px;
+}
+.list-copyrait img {
+  width: unset;
+  height: unset;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.img-position-catalog  {
+  margin-top: 20px;
+}
+.catalog-position-links {
+  display: block;
+  margin-top: 50px;
+}
+.catalog .main-caption {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+
+  #Burger {
+    display: none!important;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+  }
+  header {
+    display: block;
+  }
+  .flag-new {
+    top: -258px;
+  }
+  .flag-hit {
+    top: -222px;
+  }
+  .add-button  {
+    top: -265px;
+  }
+  .faworite-button {
+   top: -265px; 
+ }
+ .last-item-footer-left {
+  margin: 0;
+}
+.position-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.list-copyrait {
+  justify-content: space-between;}
+.list-copyrait li {
+margin: 0 ;
+}
+.footer-inst-logo {
+  display: block;
+  margin: 0 auto;
+}
+.list-copyrait-item {
+
+}
+.list-copyrait-item  img {
+  width: unset;
+  height: unset;
+}
+
+
+.header-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-phone {
+  margin: 0;
+}
+.logo {
+  margin: 0 5px;
+}
+
+.header-list li {
+  margin: 0!important;
+}
+.last-item-position {
+  margin-right: 0;
+}
+.menu li:first-child{
+  margin-left: 13%;
+}
+.menu li:last-child{
+  margin-right: 0;
+}
+.why-AreWe-caption-item {
+  margin-bottom: 10px;
+  margin-top: -5px;
+}
+.main-instagram {
+ display: block;
+}
+.main-instagram-list-item-img {
+  top: 35%;
+}
+.card-caption {
+  margin-top: -15px;
+}
+.why-AreWe-list {
+  display: flex;
+}
+.wr::before {
+  display: none;
+}
+.img-position-catalog  {
+  margin-top: 20px;
+}
+.catalog-position-links {
+  display: block;
+  margin-top: 50px;
+}
+.catalog .main-caption {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+}
+
+
+ 
+@media (min-width: 1200px) {
+  #Burger {
+    display: none!important;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+  }
+  header {
+    display: block;
+  }
+  .position-right {
+    margin-right: 253px;
+    margin-left: 100px;
+  }
+  .top-header-list-item-right-col:not(:last-child) {
+   margin-right: 90px;
+ }
+
+ .why-AreWe-caption-item {
+  margin-bottom: 10px;
+  margin-top: -5px;
+}
+.main-instagram {
+ display: block;
+}
+.why-AreWe-list {
+  display: flex;
+}
+.right-leaves,
+.left-leaves {
+ width: 300px;
+ height: 300px;
+ opacity: 0.0;
+}
+.container {
+max-width: 1100px;
+}
+.img-position-catalog  {
+  margin-top: 20px;
+}
+}
